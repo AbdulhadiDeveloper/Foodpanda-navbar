@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foodpanda nav</title>
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl px-5 shadow-lg">
+        <div class="container-fluid ">
+
+            <button type="button" class="mobile d-lg-none"><i class="fa-solid fa-user" style="color: #b4b4b4"
+                    ;></i></button>
+
+            <a class="navbar-brand m-auto m-lg-0" href="#"><img src="./foodpanda-logo.png" alt="..."
+                    style="width: 165px;"></a>
+
+            <button type="button" class="mobile d-lg-none" disabled="disabled"><i class="fa-solid fa-bag-shopping"
+                    style="color: #b4b4b4;"></i></button>
+
+            <div class="mav ms-auto d-none d-lg-flex">
+                <div class="align-content-center nav-link"><button type="button" class=" login-btn px-3 py-1">Log
+                        in</button></div>
+
+                <div class="align-content-center nav-link"><button type="button" class=" signup-btn px-3 py-1">Sign up
+                        for free delivery</button></div>
+
+                <div class="dropdown align-content-center nav-link">
+                    <button class="lang-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-globe" style="color: #000000;"></i>
+                        EN
+                        <i class="fa-solid fa-angle-down" style="color: #e21b70; "></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="mobile nav-link " disabled="disabled"><i class="fa-solid fa-bag-shopping"
+                        style="color: #b4b4b4;"></i></button>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- font awsome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"
+        integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
